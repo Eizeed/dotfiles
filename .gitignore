@@ -7,3 +7,10 @@
 !/gtk-3.0/
 !/kitty/
 !/waybar/
+
+!/hypr/**
+!/wofi/**
+!/fastfetch/**
+!/gtk-3.0/**
+!/kitty/**
+!/waybar/**
