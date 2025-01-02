@@ -1,0 +1,8 @@
+*
+!.gitignore
+!hypr
+!wofi
+!fastfetch
+!gtk-3.0
+!kitty
+!waybar
