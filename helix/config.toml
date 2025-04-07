@@ -1,0 +1,66 @@
+# nightfox, dracula, onedark, snazzy, sonokai, varua,
+# boo_berry, carbonfox, catppuccin, everblush, everforest_dark
+# ferra
+theme = "sonokai_custom"
+
+[editor]
+scrolloff = 10
+line-number = "relative"
+auto-completion = true
+path-completion = true
+completion-timeout = 5
+clipboard-provider = "wayland"
+completion-trigger-len = 1
+
+[editor.cursor-shape]
+normal = "block"
+insert = "block"
+select = "block"
+
+[editor.lsp]
+enable = true
+auto-signature-help = true
+display-inlay-hints = true
+snippets = true
+goto-reference-include-declaration = true
+
+[editor.file-picker]
+hidden = true
+
+[editor.auto-pairs]
+'(' = ')'
+'{' = '}'
+'[' = ']'
+'"' = '"'
+'`' = '`'
+'<' = '>'
+
+[keys.normal]
+up = "no_op"
+down = "no_op"
+left = "no_op"
+right = "no_op"
+pageup = "no_op"
+pagedown = "no_op"
+home = "no_op"
+end = "no_op"
+
+C-u = ["page_cursor_half_up", "align_view_center"]
+C-d = ["page_cursor_half_down", "align_view_center"]
+A-k = ["extend_to_line_bounds", "delete_selection", "move_line_up", "paste_before"]
+A-j = ["extend_to_line_bounds", "delete_selection", "paste_after"]
+
+[keys.normal.space]
+o = ":format"
+f = "file_picker_in_current_directory"
+F = "file_picker"
+
+[keys.insert]
+up = "no_op"
+down = "no_op"
+left = "no_op"
+right = "no_op"
+pageup = "no_op"
+pagedown = "no_op"
+home = "no_op"
+end = "no_op"

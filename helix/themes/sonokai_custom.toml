@@ -1,0 +1,6 @@
+inherits = "sonokai"
+"ui.background" = {}
+"ui.cursor.normal" = { fg = "white", bg = "black" }
+"ui.cursor.primary.normal" = { bg = "#c5c5c5", fg = "#333333" }
+"ui.cursor.primary.insert" = { bg = "#c5c5c5", fg = "#333333" }
+"ui.cursor.primary.select" = { bg = "#c5c5c5", fg = "#333333" }
